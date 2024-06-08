@@ -45,3 +45,6 @@ sh startup.sh
 
 ## stop 
 sh shutdown.sh
+## link file create stop or ststi
+ln -s /opt/tomcat/bin/shutdown.sh {startup.sh} /usr/bin/stoptomcat {starttomcat}
+
