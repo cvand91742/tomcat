@@ -48,3 +48,13 @@ sh shutdown.sh
 ## link file create stop or ststi
 ln -s /opt/tomcat/bin/shutdown.sh {startup.sh} /usr/bin/stoptomcat {starttomcat}
 
+
+<!-- mvn build name change 
+<build>
+            <finalName>shiva-maven</finalName>
+                <plugins>
+                        <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-war-plugin</artifactId>
+                                <version>3.3.1</version>
+                                <configuration> -->
