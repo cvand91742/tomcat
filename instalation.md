@@ -43,3 +43,5 @@ ps -ef | grep -t java
 ## run the tomcat, it will crealy show tomcat is running. 
 sh startup.sh 
 
+## stop 
+sh shutdown.sh
